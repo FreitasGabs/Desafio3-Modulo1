@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kodchasan", sans-serif;
+    background-color: #EFEEF3;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        width: 80vw;
+    }
+}
+
+.banner{
+  width: 100%;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 5em;
+    font-weight: 400;
+}
+
+.primeiraSection{
+    height: 50vh;
+
+    h1{
+        font-weight: 400;
+    }
+
+    .GlycolicGloss{
+        width: 30vw;
+        font-size: large;
+    }
+}
+
+.segundaSection{
+    height: 20vh;
+
+    h2{
+        font-weight: 400;
+    }
+    
+    img{
+        padding: 0 3em;
+    }
+}
+
+
